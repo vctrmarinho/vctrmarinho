@@ -1,0 +1,188 @@
+body{background-color: rgb(2, 27, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: large;
+    width: 100%;
+    margin: 0;
+   }
+
+
+.fundo{
+    background: url(fundo1.jpg) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 80%;
+    text-align: center;
+    padding-top: 15%;
+    
+}
+
+
+
+.intro{color: white;
+    padding-left: 32%;
+    padding-right: 32%;
+    width: 45%;
+    
+}
+
+#botao{color: white;
+    border: solid white 2px; 
+    padding: 20px;   
+    text-align: center;
+    width: 25px;
+ 
+}
+
+header{color: rgb(22, 195, 152);
+    background-color: white;
+    font-size: 22;
+    width: 100%;
+    height: 90px;
+    
+}
+
+#logo{float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 140px;
+    
+}
+
+#menu{float: right;
+    padding-right: 0px;
+ }
+
+li{ float: left;
+    list-style: none;
+    padding: 10px;
+    border: solid rgb(22, 195, 152);
+    margin: 3px;
+    margin-right: 15px;   
+    color: rgb(22, 195, 152);
+    font-style: italic;
+}
+
+li:hover{background-color: rgb(22, 195, 152);
+        color: white;
+        font-style: italic;
+}
+
+footer{padding: 8px;
+    text-align: center;
+}
+
+section{float: left;}
+
+h1{
+    font-size: 48;
+    text-align: center; 
+    color: white;  
+    }
+
+
+
+h2{ text-align: center;
+    font-size: 30;
+}
+
+h3{
+    text-align: center;
+    font-size: 30;
+}
+
+h4{
+    text-align: center;
+    font-size: 30;
+}
+
+h5{
+        text-align: center;
+         font-size: 30;
+}
+
+h6{
+    text-align: center;
+     font-size: 30;
+}
+
+#bar{width: 20%;
+    float:right;
+    padding: 15px;
+}
+
+#press{float: left;
+}
+
+p{text-align: justify; 
+}
+
+section{padding: 15px;
+}
+
+
+
+.pic{width: 45%;}
+
+#video{float: right;
+    padding: 3%;
+    
+}
+
+#vid{float: right;
+    padding: 2%;
+   
+}
+
+
+
+
+@media screen and (max-width: 800px){
+
+
+    body{
+    margin: 0;
+    width: 90%;
+    font-size: small;
+    float: none;
+   }
+
+   div{display: block;}
+
+    #bar{width: 50%;
+   }
+
+
+    header{height: 0px;
+    visibility: hidden;}
+
+
+    .fundo{width: 100%;
+        height: 100%;
+        padding-bottom: 450px;
+       }
+    
+
+h1{font-size: small;
+    float: left;}
+
+h2{font-size: small;} 
+h3{font-size: small;} 
+h4{font-size: small;}
+h5{font-size: small;}
+h6{font-size: small;}
+
+    .intro{padding-top: 10%;}
+
+
+    #botao{padding: 10px;}
+
+    .pic{width: 80%;}
+    
+    #vid{width: 100%;}
+    #video{width: 100%;
+}
+
+
+
+    }
